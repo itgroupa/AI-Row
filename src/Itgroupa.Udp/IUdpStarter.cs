@@ -1,8 +1,10 @@
-﻿namespace Itgroupa.Udp
+﻿using Itgroupa.Dto;
+
+namespace Itgroupa.Udp
 {
     public interface IUdpStarter
     {
         void Start();
-        void Stop();
+        DataDump Stop();
     }
 }
